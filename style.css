@@ -1,0 +1,92 @@
+.logo{
+    right: 150px;
+}
+.plantilla{
+    left: 1000px;
+    position: absolute;
+}
+
+.navb{
+
+    font-weight: bold;
+    color: gray;
+    transition: color .5s;
+    text-decoration: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .navb:hover{
+    font-weight: bold;
+    color: rosybrown;
+    }
+    h1{
+        margin-top: 5vh;
+        font-size: xx-large;
+    }
+    i{
+        margin-right: 15px;
+        color: gray;
+        margin-top: 5vh;
+    }
+    
+    .nabb{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    
+    .button {
+        background: #001aff;  /* fallback for old browsers /
+        background: -webkit-linear-gradient(to left, #f500cc, #001aff);  / Chrome 10-25, Safari 5.1-6 /
+        background: linear-gradient(to left, #f500cc, #001aff); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ /
+    color: #FFFFFF;
+    font-weight: bold;
+    }
+    .button:hover {
+        background: #f500cc;  / fallback for old browsers /
+        background: -webkit-linear-gradient(to left, #001aff, #f500cc);  / Chrome 10-25, Safari 5.1-6 /
+        background: linear-gradient(to left, #001aff, #f500cc); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-weight: bold;
+    color: #FFFFFF;
+    
+    }
+.btn-grad {
+            background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          .presentation{
+            position: relative;
+                left: 200px;
+                top: 200px;
+                
+          }
+          .hobbies{
+            top: 600px;
+            left: 200px;
+            position: absolute;
+            font-family: Arial;
+            font-size: 20px;
+          }
+
+    
